@@ -11,26 +11,81 @@
 </head>
 <body>
 
-<header class="header">
-  <div class="header-menu container">
-    <div class="header-logo">
-      <img class="header-logo image" src="assets/img/logo.png" alt="logo">
-      <strong class="header-logo title">Tinyone</strong>
-    </div>
-    <nav class="header-navbar">
-      <div class="header-navbar__hamburger">
-        <samp></samp>
-        <samp></samp>
-        <samp></samp>
+  <header class="header">
+    <div class="header-menu container">
+      <div class="header-logo">
+        <img src="assets/img/logo.png" alt="logo" class="header-logo__image">
+        <strong class="header-logo__title">tinyone</strong>
       </div>
-      <ul class="header-navbar__list">
-        <li class="header-navbar__item"><a href="/" class="header-navbar__link">Features</a></li>
-        <li class="header-navbar__item"><a href="#" class="header-navbar__link">Support</a></li>
-        <li class="header-navbar__item"><a href="#" class="header-navbar__link">Blog</a></li>
+      <nav class="header-navbar">
+        <div class="header-navbar__hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="header-navbar__list">
+          <li class="header-navbar__item"><a href="/" class="header-navbar__link">Features</a></li>
+          <li class="header-navbar__item"><a href="#" class="header-navbar__link">Support</a></li>
+          <li class="header-navbar__item"><a href="#" class="header-navbar__link">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  
+    <div class="header-slider container">
+      <div class="slides">
+        <div class="slide active">
+          <h2 class="slide__title">Inspire your inspiration</h2>
+          <p class="slide__subtitle">Simple to use for your app, products showcase and your inspiration</p>
+          <p class="slide__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget
+            tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin viverra risus a eros volutpat tempor. In
+            quis arcu et eros porta lobortis sit.</p>
+          <div class="slide__image">
+            <img src="assets/img/slide-image-1.png" alt="image">
+          </div>
+          <ul class="slide__brands">
+            <li><a href="#"><i class="fa fa-apple"></i></a></li>
+            <li><a href="#"><i class="fa fa-android"></i></a></li>
+            <li><a href="#"><i class="fa fa-windows"></i></a></li>
+          </ul>
+        </div>
+        <div class="slide">
+          <h2 class="slide__title">Lorem ipsum dolor amet</h2>
+          <p class="slide__subtitle">Saepe aliquid obcaecati distinctio ad inventore voluptate porro</p>
+          <p class="slide__description">Non voluptas eos amet doloribus cupiditate sapiente quod officia fugit natus
+            delectus voluptatum ratione, repudiandae quos alias perspiciatis minima, illo magni necessitatibus quo
+            exercitationem eius id.</p>
+          <div class="slide__image">
+            <img src="assets/img/slide-image-2.png" alt="image">
+          </div>
+          <ul class="slide__brands">
+            <li><a href="#"><i class="fa fa-apple"></i></a></li>
+            <li><a href="#"><i class="fa fa-android"></i></a></li>
+            <li><a href="#"><i class="fa fa-windows"></i></a></li>
+          </ul>
+        </div>
+        <div class="slide">
+          <h2 class="slide__title">Eaque, consequatur dicta</h2>
+          <p class="slide__subtitle">Iure ipsum delectus ducimus aliquam voluptatibus doloribus ex unde</p>
+          <p class="slide__description">Officia tempora impedit veniam libero dolorum voluptatum? Impedit inventore, eum
+            vero quibusdam, suscipit laborum incidunt nihil ad, ratione vel quasi minus! Fugiat. In quis arcu et eros
+            porta lobortis sit </p>
+          <div class="slide__image">
+            <img src="assets/img/slide-image-3.png" alt="image">
+          </div>
+          <ul class="slide__brands">
+            <li><a href="#"><i class="fa fa-apple"></i></a></li>
+            <li><a href="#"><i class="fa fa-android"></i></a></li>
+            <li><a href="#"><i class="fa fa-windows"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <ul class="indicators">
+        <li class="indicator active" data-slide-to="0"></li>
+        <li class="indicator" data-slide-to="1"></li>
+        <li class="indicator" data-slide-to="2"></li>
       </ul>
-    </nav>
-  </div>
-</header>
+    </div>
+  </header>
 
 
 <script src="libs/jquery/dist/jquery.min.js"></script>
